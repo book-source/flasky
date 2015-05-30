@@ -5,3 +5,7 @@ app.run(host='0.0.0.0')
 pip install flask-script
 from flask.extscript import Manager
 
+# 关于模板继承
+{% extends 'base.html' %}
+当使用以上语句，相当于当前包含base.html文件中所有内容，如果本文件重新定义base.html中的block，则会覆盖父模板的block.
+
