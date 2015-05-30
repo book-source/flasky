@@ -1,2 +1,5 @@
 # 绑定外部可见的服务器
 app.run(host='0.0.0.0')
+
+# 安装扩展
+pip install flask-script
