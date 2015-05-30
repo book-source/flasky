@@ -3,3 +3,5 @@ app.run(host='0.0.0.0')
 
 # 安装扩展， 安装该扩展后可以使用python hello.py runserver --host=0.0.0.0 启动服务器
 pip install flask-script
+from flask.extscript import Manager
+
